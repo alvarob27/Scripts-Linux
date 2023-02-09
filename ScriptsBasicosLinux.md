@@ -1,4 +1,4 @@
-# Actividad 6.1 SSII Scripts
+# Scripts Básicos Linux
 ## 1. Recibir un número entero por teclado y decir si es positivo
 ```bash
 #!/bin/bash
