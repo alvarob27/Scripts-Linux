@@ -127,6 +127,31 @@ else
 fi
 ```
 
+## Aquí esta el esqueleto del mismo Script en PowerShell
+
+```bash
+
+$args.count 
+
+if ($args.count -eq 1) {
+    
+switch ($args) {
+    "instalar" { Write-Host "Instalando el programa..."
+Start-Sleep -Seconds 3}
+    "ejecutar" {  Write-Host "Ejecutando el programa..."
+    Start-Sleep -Seconds 3}
+    "desinstalar" {  Write-Host "Desinstalando el programa..."
+    Start-Sleep -Seconds 3}
+
+}
+
+else{
+    Write-Host "AYUDA: NECESITAS METER 1 PARAMETRO.
+    INSTALAR, EJECUTAR O DESINSTALAR"
+}
+}
+```
+
 
 
 
